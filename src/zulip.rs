@@ -195,7 +195,7 @@ fn handle_command<'a>(
                     next = words.next();
                 }
 
-                Ok(Some(String::from("Unknown command")))
+                Ok(Some(String::from("Unknown command, check triagebot's documentation at <https://forge.rust-lang.org/triagebot/notifications.html>")))
             }
         }
     })
